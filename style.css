@@ -1,0 +1,32 @@
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(15,17,59);
+background: radial-gradient(circle, rgba(15,17,59,1) 18%, rgba(50,48,172,1) 52%, rgba(20,29,131,1) 71%, rgba(17,35,65,1) 94%);
+}
+
+.cont_img{
+    display: flex;
+    justify-content: center;
+    height: 490px;
+    
+}
+.conten_text{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+.conten_text2{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
