@@ -1,5 +1,5 @@
 *{
-    margin: auto;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -14,19 +14,29 @@ background: radial-gradient(circle, rgba(15,17,59,1) 18%, rgba(50,48,172,1) 52%,
     justify-content: center;
     height: 490px;
     
+    
 }
 .conten_text{
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: aliceblue;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     
 }
 .conten_text2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin: 0 0 0 650px;
+    gap: 15px;
+    align-items: center;
     color: aliceblue;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     
+}
+
+.conten_text2 .t2{
+    display: flex;
+    color: aqua;
 }
 
